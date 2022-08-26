@@ -1,4 +1,4 @@
-# redux-store
+# Redux Store
 
 ## Descrição
 
