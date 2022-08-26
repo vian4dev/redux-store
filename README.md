@@ -5,6 +5,7 @@ Aplicação de um carrinho de compra desenvolvida na aula de conteúdo bônus da
 
 ## Tecnologias utilizadas
 * HTML
+* TypeScript
 * ReactJS
 * Redux
 
