@@ -1,9 +1,9 @@
 # Redux Store
 
-## Descrição
+## ✒️ Descrição
 Aplicação de um carrinho de compra desenvolvida na aula de conteúdo bônus da _Trilha Ignite_ da Rocketseat, o intuito do desenvolvimento dessa aplicação e colocar em prática os conhecimentos da biblioteca Redux no React.
 
-## Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 <div style="display: inline_block"><br>
   <img align="center" alt="img-html" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   
@@ -15,9 +15,10 @@ Aplicação de um carrinho de compra desenvolvida na aula de conteúdo bônus da
   <img align="center" alt="img-redux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
 </div>
 
-## Demostração
+## 📷Demostração
+(em breve)
 
-## Instalação
+## ⚙️ Instalação
 Clone o repositório.
 ~~~
 git clone https://github.com/vian4dev/redux-store.git
