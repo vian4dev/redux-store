@@ -3,7 +3,7 @@
 ## ✒️ Descrição
 Aplicação de um carrinho de compra desenvolvida na aula de conteúdo bônus da _Trilha Ignite_ da Rocketseat, o intuito do desenvolvimento dessa aplicação e colocar em prática os conhecimentos da biblioteca Redux no React.
 
-## 💻 Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 <div style="display: inline_block"><br>
   <img align="center" alt="img-html" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   
