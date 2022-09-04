@@ -1,21 +1,24 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Reducer } from "redux";
-import produce from 'immer';
-import { ICartState } from "./types";
+import produce from "immer";
+import { ActionTypes, ICartState } from "./types";
 
 const INITIAL_STATE: ICartState = {
-  items: []
+  items: [],
+  failedStockCheck: [],
 };
 
 const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
-  return produce(state, draft => {
+  return produce(state, (draft) => {
     switch (action.type) {
-      case 'ADD_PRODUCT_TO_CART': {
+      case ActionTypes.addProductToCartSuccess: {
         const { product } = action.payload;
 
-        const productInCartIndex = draft.items.findIndex(item => item.product.id === product.id,
+        const productInCartIndex = draft.items.findIndex(
+          (item) => item.product.id === product.id
         );
 
-        if (productInCartIndex > 0) {
+        if (productInCartIndex >= 0) {
           draft.items[productInCartIndex].quantity++;
         } else {
           draft.items.push({
@@ -24,6 +27,10 @@ const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
           });
         }
 
+        break;
+      }
+      case ActionTypes.addProductToCartFailure: {
+        draft.failedStockCheck.push(action.payload.productId);
 
         break;
       }
@@ -32,6 +39,6 @@ const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
       }
     }
   });
-}
+};
 
 export default cart;
