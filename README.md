@@ -19,8 +19,10 @@ Aplicação de um carrinho de compra desenvolvida na aula de conteúdo bônus da
   <img align="center" alt="img-redux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg">
 </div>
 
-## 📷Demostração
-(em breve)
+## 📷 Demostração
+<div align="center">
+  <img src="https://i.ibb.co/fxbxBpk/redux-store.png" alt="redux-store" border="0">
+</div>
 
 ## ⚙️ Instalação
 Clone o repositório.
