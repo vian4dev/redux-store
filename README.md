@@ -31,7 +31,7 @@ git clone https://github.com/vian4dev/redux-store.git
 ~~~
 Acesse o diretório do projeto.
 ~~~
-cd redux-store
+cd redux-store/
 ~~~
 Instale as dependências.
 ~~~
