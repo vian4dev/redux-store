@@ -43,7 +43,7 @@ Aplicação de um carrinho de compra desenvolvida na aula de conteúdo bônus da
   <img src="./.github/redux-store.png" alt="redux-store" border="0">
 </div>
 
-## ⚙️ Instalação
+## 🔥 Instalação
 Clone o repositório.
 ~~~
 git clone https://github.com/vian4dev/redux-store.git
